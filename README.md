@@ -2,6 +2,9 @@
 
 Object Detection using a `ssd_mobilenet_coco model` with OpenCV 3.3 & TensorFlow 1.4 in C++ and XCode.
 
+Learn more on the Medium article:
+https://medium.com/greppy/object-detection-using-a-ssd-mobilenet-coco-model-with-opencv-3-3-tensorflow-1-4-in-c-and-xcode-28b3e1d955db
+
 ## Example Run & Output
 
 ```
