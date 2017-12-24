@@ -233,6 +233,29 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				COPY_HEADERS_UNIFDEF_FLAGS = "";
+				HEADER_SEARCH_PATHS = (
+					"~/Projects/nsync-8502189/public",
+					/usr/local/Cellar/opencv3/3.3.1_1/include,
+					/usr/local/Cellar/protobuf/3.4.1/include,
+					"~/Projects/eigen-034b6c3e1017",
+					"~/Projects/tensorflow-1.4.1/bazel-genfiles",
+					"~/Projects/tensorflow-1.4.1",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/Cellar/opencv/3.3.1_1/lib,
+					"/Users/MYUSERNAME/Projects/tensorflow-1.4.1/bazel-bin/tensorflow",
+				);
+				OTHER_LDFLAGS = (
+					"-lopencv_core",
+					"-lopencv_imgproc",
+					"-lopencv_imgcodecs",
+					"-lopencv_shape",
+					"-lopencv_highgui",
+					"-ltensorflow_framework",
+					"-force_load",
+					"/private/var/tmp/_bazel_MYUSERNAME/db892dbf0e7fc7ba110ca95e4b42a875/execroot/org_tensorflow/bazel-out/darwin_x86_64-opt/bin/tensorflow/libtensorflow.so",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -241,6 +264,29 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				COPY_HEADERS_UNIFDEF_FLAGS = "";
+				HEADER_SEARCH_PATHS = (
+					"~/Projects/nsync-8502189/public",
+					/usr/local/Cellar/opencv3/3.3.1_1/include,
+					/usr/local/Cellar/protobuf/3.4.1/include,
+					"~/Projects/eigen-034b6c3e1017",
+					"~/Projects/tensorflow-1.4.1/bazel-genfiles",
+					"~/Projects/tensorflow-1.4.1",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/Cellar/opencv/3.3.1_1/lib,
+					"/Users/MYUSERNAME/Projects/tensorflow-1.4.1/bazel-bin/tensorflow",
+				);
+				OTHER_LDFLAGS = (
+					"-lopencv_core",
+					"-lopencv_imgproc",
+					"-lopencv_imgcodecs",
+					"-lopencv_shape",
+					"-lopencv_highgui",
+					"-ltensorflow_framework",
+					"-force_load",
+					"/private/var/tmp/_bazel_MYUSERNAME/db892dbf0e7fc7ba110ca95e4b42a875/execroot/org_tensorflow/bazel-out/darwin_x86_64-opt/bin/tensorflow/libtensorflow.so",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
