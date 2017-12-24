@@ -31,14 +31,14 @@ I wish this was easier, but alas, you'll have to do all of this.
 
 ### Download Tensorflow model & labels file
 
-First, find a COCO model at https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md and download it.
+First, find a COCO model at https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md and *download it*.
 
 Fix line by replacing the value of `TF_PB_PATH` with your local path
 ```
 std::string TF_PB_PATH = "/PATH/TO/COCO/frozen_inference_graph.pb";
 ```
 
-Second, find the labels file at https://github.com/ActiveState/gococo/blob/master/labels.txt
+Second, find the labels file at https://github.com/ActiveState/gococo/blob/master/labels.txt and *download it*.
 
 Fix line by replacing the value of `TF_LABELLIST_PATH` with your local path
 ```
