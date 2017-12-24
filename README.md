@@ -1,5 +1,6 @@
 # Welcome to the OpenCV Tensorflow C++ Example for XCode!
 
+Object Detection using a `ssd_mobilenet_coco model` with OpenCV 3.3 & TensorFlow 1.4 in C++ and XCode.
 
 ## Example Run & Output
 
